@@ -9,7 +9,7 @@
 		<!-- name of extension -->
 		<em:name>Link Target Finder</em:name>
 		<!-- Current version of extension -->
-		<em:version>1.0</em:version>
+		<em:version>2.0</em:version>
 		<!-- The type declares that is an extension. -->
 		<em:type>2</em:type>
 		<!-- creator -->
@@ -17,7 +17,7 @@
 		<!-- Describes extension functionality. -->
 		<em:description>Finds links that have a target attribute</em:description>
 		<!-- The URL of your extension’s web site. -->
-		<em:homepageURL>https://github.com/SuriyaaKudoIsc</em:homepageURL>
+		<em:homepageURL>https://github.com/SuriyaaKudoIsc/LinkTargetFinder</em:homepageURL>
 		<!-- The URL to where you will have your file for editing options/preferences. -->
 		<em:optionsURL>chrome://linktargetfinder/content/options.xul</em:optionsURL>
 		<!-- The setting defaults to false, meaning that if you omit the property, the shims are loaded for your add-on. -->
