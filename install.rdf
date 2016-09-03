@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!-- install.rdf - This is where I have all the meta information about this extension, which versions of Firefox it supports and other assorted information. -->
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+
+	<Description about="urn:mozilla:install-manifest">
+		<!-- unique developer id -->
+		<em:id>isc.suriyaa@gmail.com</em:id>
+		<!-- name of extension -->
+		<em:name>Link Target Finder</em:name>
+		<!-- Current version of extension -->
+		<em:version>1.0</em:version>
+		<!-- The type declares that is an extension. -->
+		<em:type>2</em:type>
+		<!-- creator -->
+		<em:creator>Suriyaa Kudo</em:creator>
+		<!-- Describes extension functionality. -->
+		<em:description>Finds links that have a target attribute</em:description>
+		<!-- The URL of your extension’s web site. -->
+		<em:homepageURL>https://github.com/SuriyaaKudoIsc</em:homepageURL>
+		<!-- The URL to where you will have your file for editing options/preferences. -->
+		<em:optionsURL>chrome://linktargetfinder/content/options.xul</em:optionsURL>
+		<!-- The setting defaults to false, meaning that if you omit the property, the shims are loaded for your add-on. -->
+		<em:multiprocessCompatible>true</em:multiprocessCompatible>
+
+		<em:targetApplication>
+			<Description>
+				<!-- This value is the actual id of Firefox. -->
+				<em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+				<!-- The minimum version of Firefox required to run the extension. -->
+				<em:minVersion>2.0</em:minVersion>
+				<!-- The maximum version of Firefox required to run the extension. -->
+				<em:maxVersion>3.1b2</em:maxVersion>
+			</Description>
+		</em:targetApplication>
+	</Description>      
+</RDF>
